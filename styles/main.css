@@ -1,71 +1,130 @@
-.one {
+
+.hassle1 {
+  position:absolute;
+  background-color:#abc;
+  left:50px;
+  width:90px;
+  height:90px;
+  margin-top:100px;
+
+}
+
+.hassle {
+  position:absolute;
+  background-color:#abc;
+  left:50px;
+  width:90px;
+  height:90px;
+  margin:5px;
+
+}
+
+/*.one {
   background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
   width: 40px;
   height: 50px;
-  visibility: hidden;
+display: none;
 }
-/*.two {
+.two {
+  display: none;
+
   background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
 }
 .three {
+  display: none;
+
   background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
 }
 .four {
+  display: none;
+
   background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
 }
 .five {
+  display: none;
+
   background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
 }
 .six {
+  display: none;
+
   background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
 }
 .seven {
+  display: none;
+
   background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
 }
 .eight {
+  display: none;
+
   background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
 }
 .nine {
+  display: none;
+
   background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
 }
 .ten {
+  display: none;
+
   background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
 }
 .elev {
+  display: none;
+
   background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
 }
 .twelve {
+  display: none;
+
   background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
 }
 .thirt {
+  display: none;
+
   background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
 }
 .fourt {
+  display: none;
+
   background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
 }
 .fift {
+  display: none;
+
   background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
 }
 .sixt {
+  display: none;
+
   background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
 }
 .sevent {
+  display: none;
+
   background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
 }
 .eighte {
+  display: none;
+
   background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
 }
 .ninet {
+  display: none;
+
   background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
 }
 .twent {
+  display: none;
+
   background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
 }
-.twenone {
-  background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
-}*/
+
 
 .one1 {
+  display: none;
+
   background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
   width: 40px;
   height: 50px;
@@ -127,11 +186,9 @@
 .twent {
   background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
 }
-.twenone {
-  background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
-}
+
 
 th {
   height:50px;
   width: 60px;
-}
+}*/
