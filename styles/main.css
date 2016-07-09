@@ -1,7 +1,10 @@
 .one {
   background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
+  width: 40px;
+  height: 50px;
+  visibility: hidden;
 }
-.two {
+/*.two {
   background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
 }
 .three {
@@ -13,19 +16,120 @@
 .five {
   background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
 }
-.one {
+.six {
   background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
 }
-.one {
+.seven {
   background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
 }
-.one {
+.eight {
   background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
 }
-.one {
+.nine {
   background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
 }
+.ten {
+  background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
+}
+.elev {
+  background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
+}
+.twelve {
+  background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
+}
+.thirt {
+  background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
+}
+.fourt {
+  background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
+}
+.fift {
+  background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
+}
+.sixt {
+  background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
+}
+.sevent {
+  background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
+}
+.eighte {
+  background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
+}
+.ninet {
+  background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
+}
+.twent {
+  background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
+}
+.twenone {
+  background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
+}*/
 
+.one1 {
+  background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
+  width: 40px;
+  height: 50px;
+}
+.two2 {
+  background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
+}
+.three3 {
+  background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
+}
+.four4 {
+  background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
+}
+.five {
+  background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
+}
+.six {
+  background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
+}
+.seven {
+  background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
+}
+.eight {
+  background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
+}
+.nine {
+  background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
+}
+.ten {
+  background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
+}
+.elev {
+  background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
+}
+.twelve {
+  background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
+}
+.thirt {
+  background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
+}
+.fourt {
+  background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
+}
+.fift {
+  background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
+}
+.sixt {
+  background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
+}
+.sevent {
+  background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
+}
+.eighte {
+  background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
+}
+.ninet {
+  background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
+}
+.twent {
+  background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
+}
+.twenone {
+  background-image: url(http://www.canada.com/cms/binary/7525845.jpg);
+}
 
 th {
   height:50px;
