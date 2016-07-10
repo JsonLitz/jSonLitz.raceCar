@@ -1,17 +1,5 @@
-write out a story first
+README.md
 
-solution should not have any console.logs in it. At least have them commented out
+HassleRock is a game that pits two of David Hasslehoff's greates characters against each other in a deadly race.
 
-When creating new git repo, make sure you specify a name "json's race game"
-
-
-
-There should be a grid and discrete spaces that the cars can move in
-  create a table?
-
-movement along the grid should be bound to key strokes
-
-z index
-toggle visibility
-
-After creating two rows with discrete cells, find a way to traverse the cells 
+Movement in HassleRock is done by .animate(), and moves the  rather than 
