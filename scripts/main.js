@@ -1,51 +1,48 @@
-$(document).on("ready", function(){
 
+$(document).on("ready", function() {
 
+  $(document).keyup(function move(e) { //Mitch Buchannon
+    if (e.which == 49) {
+      $(".hassle").animate({
+        "left": "+=50",
 
-
-
-
-  $(document).keyup(function move(e) { //This button
-    if(e.which == 57) {
-        $( ".hassle" ).animate({"left": "+=50",
-
-        });
-      console.log('Working here')
+        // $( ".hassle:last" ).text( hassle.left );
+      });
     }
   });
 
+  $(document).keyup(function move(e) { //Knight Rider
+    if (e.which == 57) {
+      $(".hassle1").animate({
+        "left": "+=50",
 
-  $(document).keyup(function move(e) { //This button
-    if(e.which == 49) {
-        $( ".hassle1" ).animate({"left": "+=50",
+        // if ("left" = 600px) {
+        //   console.log('Working')
+        // }
+      });
 
-        });
-      console.log('Working here')
+
     }
   });
-
-  });
-
-  https://api.jquery.com/clearQueue/
-  http://api.jquery.com/width/
-  https://api.jquery.com/jquery.when/
-  http://api.jquery.com/offset/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  // var h = $('.hassle')
+  // var hassle = h.position()
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // //================================================================================================================================================
 

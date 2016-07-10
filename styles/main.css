@@ -1,22 +1,49 @@
+body {
+  /*background-color: black;*/
+}
 
+h1  {
+  color:red;
+}
 .hassle1 {
-  position:absolute;
-  background-color:#abc;
+  position:relative;
   left:50px;
   width:90px;
   height:90px;
-  margin-top:100px;
+  /*margin-top:100px;*/
+  border:3px solid black;
 
 }
 
 .hassle {
-  position:absolute;
-  background-color:#abc;
+  position:relative;
   left:50px;
   width:90px;
   height:90px;
-  margin:5px;
+  border:3px solid black;
 
+}
+
+.racetrack {
+  background-color: black;
+  width:1000px;
+  height:800px;
+  border:1px solid black;
+}
+
+.buchannon {
+  background-color: black;
+  height:100px;
+  margin:20px 0 20px 0;
+  border:3px solid red;
+
+}
+
+.knightRider {
+  background-color: black;
+  height:100px;
+  border:3px solid red;
+  
 }
 
 /*.one {
