@@ -8,7 +8,7 @@ $(document).on("ready", function() {
       });
       if ($track1.width() <= $player1.offset().left + $player1.outerWidth()){
         fullStop();
-        $('#buzzer1').get(0).play();  
+        $('#buzzer1').get(0).play();
       }
     }
   });
@@ -20,7 +20,7 @@ $(document).on("ready", function() {
       });//try .css instead or .prop
       if ($track2.width() <= $player2.offset().left + $player2.outerWidth()){
         fullStop();
-        $buzzer.get(0).play();                 //This function will trigger the event of Michael winning
+        $buzzer.get(0).play();
       }
     }
   });
@@ -43,10 +43,11 @@ $(document).on("ready", function() {
   // }
 
   function fullStop(){
-    $player1.clearQueue();             //This function clears extra movements after winner has been determined
-    $player1.stop();
+    $player1.clearQueue();       //This function clears any built up keystrokes     
+    $player1.stop();             //This function stops extra movements after winner has been determined
     $player2.clearQueue();
     $player2.stop();
+    $(document).off('keyup');
   }
 
 });
@@ -55,7 +56,6 @@ $(document).on("ready", function() {
 //TODO: make boilerplate function that both use- What features do I want to add for both?
 //TODO: Win counter function for both? Might have to be different \.
 //TODO: ask ryan about the fact that they wont stop if too many
-
 
 
 
