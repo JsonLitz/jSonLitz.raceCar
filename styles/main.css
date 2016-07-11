@@ -1,10 +1,12 @@
 body {
-  /*background-color: black;*/
+  background-color: transparent;
+  /*background-image: url('ihttp://assets.nydailynews.com/polopoly_fs/1.93901.1313895313!/img/httpImage/image.jpg_gen/derivatives/gallery_1200/alg-resize-watn-baywatch-jpg.jpg');*/
 }
 
 h1  {
-  color:red;
+  color:yellow;
   padding: 50px;
+  background-color: red;
 }
 .hassle1 {
   position:relative;
@@ -40,15 +42,28 @@ h1  {
 .knight {
   background-color: black;
   height:100px;
+  border: 1px solid blue;
 
 }
 
-.bayWin {
+.scoreBoard {
   position: absolute;
-  height:500px;
-  width:1000px;
+  height:200px;
+  width:500;
   background-color: blue;
   margin-left:200px;
+  margin-top: 300px;
   display:hide;
   z-index:9;
+}
+
+.placeholder{
+	width: 100%;
+	height: 500px;
+	background-color: rgb(29, 41, 43);
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	border-style: dotted 1px;
+
 }

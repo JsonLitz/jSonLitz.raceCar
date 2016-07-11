@@ -7,22 +7,32 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles/main.css">
     <script src="http://code.jquery.com/jquery-2.2.2.min.js"></script>
+    <script src="scripts/parallax.min.js"></script>
     <script src="scripts/main.js"></script>
 
   </head>
   <body>
     <h1>Hassle Off</h1>
-    <!-- <div class="col-md-4 bayWin">
-    </div> -->
+    <div class="col-md-4 scoreBoard">
+      <p class ='p1'></p>
+      <p class ='p2'></p>
+    </div>
 
-    <div class="col-md-10 mainTrack">
-      <div class="col-md-10 col-offset-1 centered  buchannon">
+    <div class="parallax-window" data-parallax="scroll" data-image-src="./images/knightRider.jpg">
+    </div>
+    <div class="placeholder">
+      <div class="col-md-8 col-offset-2 centered  buchannon">
         <img class ="hassle" src="http://cdn3-www.comingsoon.net/assets/uploads/2016/03/hasselhoffbaywatch.jpg" alt="racecar" />
       </div>
-      <div class="col-md-10 col-offset-1 centered  knight">
+      <div class="col-md-8 col-offset-2 centered  knight">
         <img class ="hassle1" src="images/hasslehoff.jpg" alt="racecar" />
       </div>
+      </div>
+    <div class="parallax-window" data-parallax="scroll" data-image-src="./images/baeWatch.jpg">
     </div>
+    <div class="placeholder">
+    </div>  
+
 
 
     <audio id="buzzer1" src="audio/baywatch.mp3" type="audio/ogg">
