@@ -3,9 +3,10 @@ $(document).on("ready", function() {
 
   $(document).keyup(function move(e) { //Mitch Buchannon
     if (e.which == 49) {
-      $(".hassle").animate({
-        "left": "+=50",
-      });
+      $(".hassle").css("left",("+=50"));
+
+
+
       if ($track1.width() <= $player1.offset().left + $player1.outerWidth()){
         fullStop();
         $('#buzzer1').get(0).play();
@@ -15,17 +16,14 @@ $(document).on("ready", function() {
 
   $(document).keyup(function move(e) { //Michael Knight
     if (e.which == 48) {
-      $(".hassle1").animate({
-        "left": "+=50",
-      });//try .css instead or .prop
+      $(".hassle1").css("left",("+=50"));
       if ($track2.width() <= $player2.offset().left + $player2.outerWidth()){
         fullStop();
-        $buzzer.get(0).play();
+        $('#buzzer').get(0).play();
       }
     }
   });
-  // var track = $('.mainTrack');
-  var $buzzer = $('#buzzer');
+
 
 
   var $track1 = $('.buchannon'); // Player 1 race track div
@@ -43,7 +41,7 @@ $(document).on("ready", function() {
   // }
 
   function fullStop(){
-    $player1.clearQueue();       //This function clears any built up keystrokes     
+    $player1.clearQueue();       //This function clears any built up keystrokes
     $player1.stop();             //This function stops extra movements after winner has been determined
     $player2.clearQueue();
     $player2.stop();
@@ -54,8 +52,8 @@ $(document).on("ready", function() {
 
 //TODO: buchannonWin() and knightWin() both should reveal hidden window, music
 //TODO: make boilerplate function that both use- What features do I want to add for both?
-//TODO: Win counter function for both? Might have to be different \.
-//TODO: ask ryan about the fact that they wont stop if too many
+//TODO: Win counter function for both? Might have to be different
+//TODO: Address bug that causes players to extend beyond div container
 
 
 
